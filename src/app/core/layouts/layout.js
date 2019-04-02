@@ -34,7 +34,7 @@ export default class Layout extends Component {
 							</ul>
 						</nav>
 
-						<Section headline="App successfully started and created with Veams!">
+						<Section>
 							{this.props.children}
 						</Section>
 					</div>
