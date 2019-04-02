@@ -28,6 +28,9 @@ export default class Layout extends Component {
 								<li>
 									<Link to="/test">Test Route</Link>
 								</li>
+								<li>
+									<Link to="/examples">Examples Route</Link>
+								</li>
 							</ul>
 						</nav>
 
