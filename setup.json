@@ -1,0 +1,34 @@
+{
+  "@veams/generator-veams": {
+    "projectName": "netlify demo react",
+    "projectType": "single-page-app",
+    "taskRunner": "webpack",
+    "templateEngine": [],
+    "server": [
+      "serverFakeData"
+    ],
+    "gruntModules": [],
+    "features": [],
+    "jsLibs": [
+      "redux",
+      "rxjs"
+    ],
+    "cssLibs": [
+      "bourbon-neat",
+      "include-media"
+    ],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": true,
+    "docs": [],
+    "icons": [
+      "sprite"
+    ],
+    "images": [
+      "imgLazyLoad"
+    ],
+    "cssPostProcessors": [
+      "autoprefixer"
+    ]
+  }
+}
