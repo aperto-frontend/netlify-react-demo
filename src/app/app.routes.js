@@ -10,6 +10,7 @@ import React from 'react';
 import AppCore from './core';
 import { renderRoutes } from 'react-router-config';
 import { Link } from 'react-router-dom';
+import ExamplesComponent from './pages/examples/examples';
 
 /**
  * A simple home page route.
@@ -27,6 +28,10 @@ const HomePage = [
  * Therefore we use react-router-config to render the routes which are provided in props.
  */
 const TestRoutes = [
+	{
+		component: ExamplesComponent,
+		path: '/examples'
+	},
 	{
 		component: ({ route }) => {
 			return (
